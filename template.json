@@ -1,0 +1,27 @@
+{
+    "name": "werewolf20th",
+    "title": "Werewolf: The Apocalypse 20th Anniversay Edition",
+    "description": "Werewolf: The Apocalypse",
+    "version": "1.0.0",
+    "minimumCoreVersion": "0.8.9",
+    "compatibleCoreVersion": "0.8.9",
+    "templateVersion": 2,
+    "author": "condezero",
+    "scripts": [],
+    "packs": [],
+    "languages": [
+      {
+        "lang": "es",
+        "name": "Spanish",
+        "path": "lang/es.json"
+      }
+    ],
+    "gridDistance": 5,
+    "gridUnits": "ft",
+    "primaryTokenAttribute": "",
+    "secondaryTokenAttribute": "",
+    "url": "https://github.com/Layman2501/wod20",
+    "manifest": "https://raw.githubusercontent.com/Layman2501/wod20/main/system.json",
+    "download": ""
+}
+  

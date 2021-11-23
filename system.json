@@ -1,0 +1,27 @@
+{
+    "name": "werewolf20th",
+    "title": "Werewolf: The Apocalypse 20th Anniversay Edition",
+    "description": "Werewolf: The Apocalypse",
+    "version": "1.0.0",
+    "minimumCoreVersion": "0.8.9",
+    "compatibleCoreVersion": "0.8.9",
+    "templateVersion": 2,
+    "author": "condezero",
+    "scripts": [],
+    "packs": [],
+    "languages": [
+      {
+        "lang": "es",
+        "name": "Spanish",
+        "path": "lang/es.json"
+      }
+    ],
+    "gridDistance": 5,
+    "gridUnits": "ft",
+    "primaryTokenAttribute": "",
+    "secondaryTokenAttribute": "",
+    "url": "https://github.com/condezero/foundryvtt-werewolf20th",
+    "manifest": "https://raw.githubusercontent.com/condezero/foundryvtt-werewolf20th/main/system.json",
+    "download": "https://github.com/condezero/foundryvtt-werewolf20th/archive/refs/heads/main.zip"
+}
+  
