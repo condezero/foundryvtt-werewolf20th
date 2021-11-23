@@ -1,0 +1,21 @@
+<form
+  class="{{cssClass}} flexcol {{#if locked}}locked{{/if}} werewolf-sheet"
+  autocomplete="off"
+>
+  {{!-- Werewolf Sheet Header --}}
+  <header class="sheet-header">
+    
+    <div class="header-fields">
+      <div class="grid grid-3col flexrow">
+        <h1 class="charname">
+          <input
+            name="name"
+            type="text"
+            value="{{actor.name}}"
+            placeholder="{{localize 'were20.Name'}}"
+          />
+        </h1>
+      </div>
+    </div>
+  </header>
+</form>
