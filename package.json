@@ -2,10 +2,15 @@
   "name": "foundryvtt-werewolf20th",
   "version": "1.0.0",
   "description": "Foundry VTT Werewolf: The Apocalypse Game System",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp",
+    "compile": "gulp css",
+    "watch": "gulp",
+    "gulp": "gulp"
   },
+  "browserslist": [
+    "last 3 versions"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/condezero/foundryvtt-werewolf20th.git"
@@ -18,5 +23,25 @@
   "bugs": {
     "url": "https://github.com/condezero/foundryvtt-werewolf20th/issues"
   },
-  "homepage": "https://github.com/condezero/foundryvtt-werewolf20th#readme"
+  "homepage": "https://github.com/condezero/foundryvtt-werewolf20th#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "standard": "^16.0.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.18.0",
+    "htmlhint": "^0.9.9",
+    "stylelint": "^14.1.0",
+    "stylelint-config-standard": "^24.0.0"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": [
+      "$"
+    ]
+  }
 }
