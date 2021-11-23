@@ -1,0 +1,23 @@
+{
+    "Actor": {
+        "types": [
+            "character",
+            "werewolf"
+        ],
+        "templates": {
+            "werewolf": {
+                "biography": "",
+                "equipment": "",
+                "notes": "",
+                "headers": {
+                    "concept": "",
+                    "chronicle": ""
+                },
+                "exp": {
+                    "value": 0,
+                    "max": 0
+                }
+            }
+        }
+    }
+}
